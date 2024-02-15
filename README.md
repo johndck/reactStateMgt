@@ -1,5 +1,9 @@
 # React + Vite
 
+In this file this code shows me how to manage state within components and then how to manage state between components.
+
+It also shows shows props and pushing down data and functions into child components.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
