@@ -6,11 +6,9 @@ function Joke({ id, text, favorite, onFavoriteChange }) {
 
   function handleLikes() {
     setLikes(likes + 1);
-    console.log(`like id ${id} & likes ${likes}`);
   }
   function handledislikes() {
-    setDislikes(dislikes + 1);
-    console.log(`dislike id ${id} & dislikes ${likes}`);
+    setDislikes(dislikes - 1);
   }
 
   function handleFavorite() {
